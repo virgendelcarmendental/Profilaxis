@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<div id="cabecera">
+   <img src="img/logo.png">
+
+
+</div>
+<div id ="fondo"> 
+ <div id="contact-form">  
+   <h1>Solo en abril 20% de descuento en PROFILAXIA</h1>
+   <h2>En Junio.</h2>  
+   <p id="failure">Oops... Algo anduvo mal.</p>  
+   <p id="success">Gracias, tu mensaje ha sido enviado correctamente.</p>  
+   <form method="post" action="emailForm.php">  
+     
+      <input type="text" id="name" name="name" value="" placeholder="Tu nombre" required="required" autofocus="autofocus" />  
+         
+      <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />  
+         
+      
+      <input type="text" id="text" name="text" value="" placeholder="999 999 999"/>  
+         
+      <label for="Tema">Tema : </label>  
+      <select id="subject" name="subject">  
+         <option value="hello">Quiero una cita</option>
+         <option value="quote">Quisiera mas informacion</option>  
+         <option value="general">Me interesa la oferta</option>  
+      </select>  
+         
+      <label for="Mensajes">Mensajes:<span class="required">*</span></label>  
+      <textarea id="message" name="message" placeholder="Write your message here, please." required="required">
+         
+      </textarea>  
+           
+      <input type="submit" value="Obtener Descuento" id="submit" />
+   </form>  
+</div>
+</div>
+
+<body>
+Content of the document......
+</body>
+
+</html>
